@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ partial "headtag.html" . }}
+</head>
+<body>
+
+  {{ partial "navbar.html" . }}
+  
+  <header class="mb--3">
+    <div class="hero bg--dark--gradient">
+      <div class="hero__content">
+        <div class="container">
+          {{ if .IsHome }}
+            <h1 class="py--2"> {{ .Site.Title }}</h1>
+            <!-- <h2 class="mb--2">{{ .Param "description" }} <span class="highlight--warning">No JS required!</span></h2> -->
+          {{ else }}
+            <h1 class="py--2">{{ .Page.Title }}</h1>
+          {{ end }}
+        </div>
+      </div>
+    </div>    
+  </header>
+  <main>
+    <div class="container">
+
+      <section id="mainbody" class="mb--3">
+        <h3 class="py--1"></h3>
+        {{ block "mainbody" . }}{{ end }}
+      </section>
+
+    </div>
+  </main>
+  <footer class="bg--dark">
+    © 2020 fonts.my.id
+  </footer>
+</body>
+</html>

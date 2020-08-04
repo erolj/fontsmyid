@@ -1,0 +1,3 @@
+{{ $main := resources.Get "styles/main.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $main.Permalink }}">
+<link rel="stylesheet" href="https://unpkg.com/gorangocss@latest/dist/gorango.min.css" crossorigin="anonymous">
