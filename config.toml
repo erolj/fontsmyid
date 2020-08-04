@@ -3,3 +3,6 @@ languageCode = "en-us"
 title = "fonts-my-id"
 assetsDir = "assets"
 publishDir = "public"
+
+[params]
+copydate = "2020"

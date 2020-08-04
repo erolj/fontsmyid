@@ -1,3 +1,45 @@
 {{ define "mainbody" }}
   
 {{ end }}
+
+{{ define "inter" }}
+  <article id="inter" class="pb--1">
+    <header>
+      <!-- <span class="badge bg--light float--right">since 1.9.0</span> -->
+      <h4 class="pb--1">Inter</h4>
+    </header>
+    <figure class="class pa--1 border--5 rounded--t--6">
+      <kbd>font-family: "Inter", sans-serif;</kbd>
+    </figure>
+    {{ $inter := "<link rel=\"stylesheet\" href=\"https://font.my.id/libs/inter/3.13/inter.css\" crossorigin=\"anonymous\">" }}
+    <figure>
+<pre class="bg--dark pa--2" rel="html" data-type="html">
+  {{ $inter }}
+</pre>
+    </figure>
+    <!-- <div class="preview pa--2 border--5 rounded--b--6" rel="preview">
+      {{ $inter | safeHTML }}
+    </div> -->
+  </article>
+{{ end }}
+
+{{ define "firacode" }}
+  <article id="firacode" class="pb--1">
+    <header>
+      <!-- <span class="badge bg--light float--right">since 1.9.0</span> -->
+      <h4 class="pb--1">Fira Code</h4>
+    </header>
+    <figure class="class pa--1 border--5 rounded--t--6">
+      <kbd>font-family: "Fira Code", monospace;</kbd>
+    </figure>
+    {{ $firacode := "<link rel=\"stylesheet\" href=\"https://font.my.id/libs/fira-code/5.2/fira_code.css\" crossorigin=\"anonymous\">" }}
+    <figure>
+<pre class="bg--dark pa--2" rel="html" data-type="html">
+  {{ $firacode }}
+</pre>
+    </figure>
+    <!-- <div class="preview pa--2 border--5 rounded--b--6" rel="preview">
+      {{ $firacode | safeHTML }}
+    </div> -->
+  </article>
+{{ end }}

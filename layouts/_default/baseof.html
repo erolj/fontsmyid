@@ -27,12 +27,14 @@
       <section id="mainbody" class="mb--3">
         <h3 class="py--1"></h3>
         {{ block "mainbody" . }}{{ end }}
+        {{ block "inter" . }}{{ end }}
+        {{ block "firacode" . }}{{ end }}
       </section>
 
     </div>
   </main>
   <footer class="bg--dark">
-    © 2020 fonts.my.id
+    {{ partial "footer.html" . }}
   </footer>
 </body>
 </html>
