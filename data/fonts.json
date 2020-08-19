@@ -138,6 +138,21 @@
     "Public": true
   },
   {
+    "Name": "lato-latin",
+    "Fullname": "Lato Latin",
+    "Url": "https://font.my.id/libs/lato-latin/latolatinfonts.css",
+    "Type": [
+      "sans-serif"
+    ],
+    "Family": [
+      "\"LatoLatinWeb\", sans-serif"
+    ],
+    "Class": [
+      "lato-latin"
+    ],
+    "Public": true
+  },
+  {
     "Name": "league-gothic",
     "Fullname": "League Gothic",
     "Url": "https://font.my.id/libs/league/gothic/web/stylesheet.css",
@@ -262,10 +277,10 @@
     "Fullname": "Overpass Mono",
     "Url": "https://font.my.id/libs/overpass/mono-webfont/overpass-mono.min.css",
     "Type": [
-      "sans-serif"
+      "monospace"
     ],
     "Family": [
-      "\"overpass-mono\", sans-serif"
+      "\"overpass-mono\", monospace"
     ],
     "Class": [
       "overpass-mono"

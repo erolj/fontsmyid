@@ -1,0 +1,39 @@
+[
+  {
+    "Logos": [
+      "fl-alpine",
+      "fl-aosc",
+      "fl-apple",
+      "fl-archlinux",
+      "fl-centos",
+      "fl-coreos",
+      "fl-debian",
+      "fl-devuan",
+      "fl-docker",
+      "fl-elementary",
+      "fl-fedora",
+      "fl-fedora-inverse",
+      "fl-flathub",
+      "fl-freebsd",
+      "fl-gentoo",
+      "fl-gnu-guix",
+      "fl-linuxmint",
+      "fl-linuxmint-inverse",
+      "fl-mageia",
+      "fl-mandriva",
+      "fl-manjaro",
+      "fl-nixos",
+      "fl-opensuse",
+      "fl-raspberry-pi",
+      "fl-redhat",
+      "fl-sabayon",
+      "fl-slackware",
+      "fl-slackware-inverse",
+      "fl-snappy",
+      "fl-tux",
+      "fl-ubuntu",
+      "fl-ubuntu-inverse",
+      "fl-void"
+    ]
+  }
+]

@@ -1,38 +1,74 @@
 {{ define "text" }}
-  ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
+ABCDEFGHIJKLMNOPQRSTUVWXYZ aąbcćdeęfghijklłmnńoópqrśtuvwxyzżź 0123456789
 {{ end }}
 
 {{ define "mainbody" }}
   {{ $fontJson := getJSON "data/fonts.json" }}
   {{ range sort $fontJson "Name" "asc" }}
     {{ if .Public }}
-      <article id="{{ .Name }}" class="pb--1">
+      <article id="{{ .Name }}" class="pb--3">
         <header>
           {{ range .Type }}
             <span class="badge bg--light float--right">{{ . | title }}</span>
           {{ end }}
           <h4 class="pb--1">{{ .Name | title }}</h4>
         </header>
-        <figure class="class pa--1 border--5 rounded--t--6">
+        <div class="preview pa--2 border--5 rounded--t--6" rel="preview">
+          {{ range .Class }}
+            <p class="{{ . }} pb--1">
+              <span class="font--lg">{{ block "text" . }}{{ end }}</span><br>
+              <span class="">{{ readFile "example.txt" }}</span>
+            </p>
+          {{ end }}
+        </div>
+        {{ $codeRel := "<link rel=\"stylesheet\"" }}
+        {{ $codeCross := "crossorigin=\"anonymous\">" }}
+        <figure>
+<pre class="bg--dark txt--center pa--2" rel="html" data-type="html">
+  {{ $codeRel }} href="{{ .Url }}" {{ $codeCross }}
+</pre>
+        </figure>
+        <figure class="class txt--center pa--1 border--5 rounded--b--6">
           {{ range .Family }}
             <kbd>font-family: {{ . }};</kbd><br>
           {{ end }}
         </figure>
-        {{ $codeRel := "<link rel=\"stylesheet\"" }}
-        {{ $codeCross := "crossorigin=\"anonymous\">" }}
-        <figure>
-<pre class="bg--dark pa--2" rel="html" data-type="html">
-  {{ $codeRel }} href="{{ .Url }}" {{ $codeCross }}
-</pre>
-        </figure>
-        <div class="preview pa--2 border--5 rounded--b--6" rel="preview">
-          {{ range .Class }}
-            <span class="{{ . }} font--lg">
-              {{ block "text" . }}{{ end }}
-            </span>
-          {{ end }}
-        </div>
       </article>
     {{ end }}
   {{ end }}
 {{ end }}
+
+{{ define "font-logos" }}
+  {{ $fontlogoJson := getJSON "data/font-logos.json" }}
+  {{ range $fontlogoJson }}
+      <article id="font-logos" class="pb--3">
+        <header>
+          <span class="badge bg--light float--right">Icon</span>
+          <h4 class="pb--1">Font Logos</h4>
+        </header>
+        <div class="preview pa--2 border--5 rounded--t--6" rel="preview">
+          <div class="flex--wrap">
+            {{ range .Logos }}
+              <div class="column--5">
+                {{ $kbdpre := "<span class=" }}
+                {{ $kbdpost := "></span>" }}
+                <p><kbd>{{ $kbdpre }}"font-logos {{ . }}"{{ $kbdpost }}</kbd></p>
+                <p><span class="font-logos {{ . }} font--lg"></span></p>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+        {{ $codeRel := "<link rel=\"stylesheet\"" }}
+        {{ $codeCross := "crossorigin=\"anonymous\">" }}
+        <figure>
+<pre class="bg--dark txt--center pa--2" rel="html" data-type="html">
+  {{ $codeRel }} href="https://font.my.id/libs/font-logos/0.12/assets/font-logos.css" {{ $codeCross }}
+</pre>
+        </figure>
+        <figure class="class txt--center pa--1 border--5 rounded--b--6">
+          <kbd>font-family: "font-logos";</kbd><br>
+        </figure>
+      </article>
+  {{ end }}
+{{ end }}
+

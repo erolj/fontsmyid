@@ -67,6 +67,9 @@ kbd {
 .lato {
   font-family: "LatoWeb", sans-serif !important;
 }
+.lato-latin {
+  font-family: "LatoLatinWeb", sans-serif !important;
+}
 .league-gothic {
   font-family: "League Gothic", sans-serif !important;
 }
@@ -92,7 +95,7 @@ kbd {
   font-family: "overpass", sans-serif !important;
 }
 .overpass-mono {
-  font-family: "overpass-mono", sans-serif !important;
+  font-family: "overpass-mono", monospace !important;
 }
 .prociono {
   font-family: "Prociono", serif !important;
@@ -105,4 +108,8 @@ kbd {
 }
 .redacted_scriptregular {
   font-family: "redacted_scriptregular", serif !important;
+}
+
+.font-logos {
+  font-family: "font-logos" !important;
 }
