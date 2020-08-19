@@ -1,0 +1,323 @@
+[
+  {
+    "Name": "inter",
+    "Fullname": "Inter",
+    "Url": "https://font.my.id/libs/inter/3.13/inter.css",
+    "Type": [
+      "sans-serif",
+      "variable"
+    ],
+    "Family": [
+      "\"Inter\", sans-serif",
+      "\"Inter var\""
+    ],
+    "Class": [
+      "inter",
+      "inter-var"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "firacode",
+    "Fullname": "Fira Code",
+    "Url": "https://font.my.id/libs/fira-code/5.2/fira_code.css",
+    "Type": [
+      "monospace"
+    ],
+    "Family": [
+      "\"Fira Code\", monospace"
+    ],
+    "Class": [
+      "firacode"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "fanwood",
+    "Fullname": "Fanwood",
+    "Url": "https://font.my.id/libs/fanwood/webfonts/stylesheet.css",
+    "Type": [
+      "serif"
+    ],
+    "Family": [
+      "\"Fanwood\", serif"
+    ],
+    "Class": [
+      "fanwood"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "goudy-bookletter",
+    "Fullname": "Goudy Bookletter 1911",
+    "Url": "https://font.my.id/libs/goudy-bookletter-1911/webfonts/stylesheet.css",
+    "Type": [
+      "serif"
+    ],
+    "Family": [
+      "\"Goudy Bookletter 1911\", serif"
+    ],
+    "Class": [
+      "goudy-bookletter"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "hack",
+    "Fullname": "Hack",
+    "Url": "https://font.my.id/libs/hack/3.3.0/hack.css",
+    "Type": [
+      "monospace"
+    ],
+    "Family": [
+      "\"Hack\", monospace"
+    ],
+    "Class": [
+      "hack"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "inconsolata",
+    "Fullname": "Inconsolata",
+    "Url": "https://font.my.id/libs/inconsolata/3.000/inconsolata.css",
+    "Type": [
+      "variable"
+    ],
+    "Family": [
+      "\"Inconsolata var\""
+    ],
+    "Class": [
+      "inconsolata"
+    ],
+    "Public": false
+  },
+  {
+    "Name": "iosevka-mayukai",
+    "Fullname": "Iosevka Mayukai",
+    "Url": "https://font.my.id/libs/iosevka-mayukai/1.3.1/iosevka-mayukai.css",
+    "Type": [
+      "monospace"
+    ],
+    "Family": [
+      "\"Iosevka Mayukai Web\", monospace"
+    ],
+    "Class": [
+      "iosevka-mayukai"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "junction",
+    "Fullname": "Junction",
+    "Url": "https://font.my.id/libs/junction/web/junction.css",
+    "Type": [
+      "sans-serif"
+    ],
+    "Family": [
+      "\"Junction\", sans-serif"
+    ],
+    "Class": [
+      "junction"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "lato",
+    "Fullname": "Lato",
+    "Url": "https://font.my.id/libs/lato/2.0.15/latofonts.css",
+    "Type": [
+      "sans-serif"
+    ],
+    "Family": [
+      "\"LatoWeb\", sans-serif"
+    ],
+    "Class": [
+      "lato"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "league-gothic",
+    "Fullname": "League Gothic",
+    "Url": "https://font.my.id/libs/league/gothic/web/stylesheet.css",
+    "Type": [
+      "sans-serif"
+    ],
+    "Family": [
+      "\"League Gothic\", sans-serif"
+    ],
+    "Class": [
+      "league-gothic"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "league-mono",
+    "Fullname": "League Mono",
+    "Url": "https://font.my.id/libs/league/mono/web/stylesheet.css",
+    "Type": [
+      "monospace"
+    ],
+    "Family": [
+      "\"League Mono\", monospace"
+    ],
+    "Class": [
+      "league-mono"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "league-script",
+    "Fullname": "League Script",
+    "Url": "https://font.my.id/libs/league/script/webfonts/stylesheet.css",
+    "Type": [
+      "serif"
+    ],
+    "Family": [
+      "\"League Script\", serif"
+    ],
+    "Class": [
+      "league-script"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "league-spartan",
+    "Fullname": "League Spartan",
+    "Url": "https://font.my.id/libs/league/spartan/web/stylesheet.css",
+    "Type": [
+      "sans-serif"
+    ],
+    "Family": [
+      "\"League Spartan\", sans-serif"
+    ],
+    "Class": [
+      "league-spartan"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "linden-hill",
+    "Fullname": "Linden Hill",
+    "Url": "https://font.my.id/libs/linden-hill/webfonts/stylesheet.css",
+    "Type": [
+      "serif"
+    ],
+    "Family": [
+      "\"Linden Hill\", serif"
+    ],
+    "Class": [
+      "linden-hill"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "manrope",
+    "Fullname": "Manrope",
+    "Url": "https://font.my.id/libs/manrope/4.5/index.css",
+    "Type": [
+      "sans-serif"
+    ],
+    "Family": [
+      "\"Manrope\", sans-serif"
+    ],
+    "Class": [
+      "manrope"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "ostrich-sans",
+    "Fullname": "Ostrich Sans",
+    "Url": "https://font.my.id/libs/ostrich-sans/webfonts/ostrich-sans.css",
+    "Type": [
+      "sans-serif"
+    ],
+    "Family": [
+      "\"Ostrich Sans\", sans-serif"
+    ],
+    "Class": [
+      "ostrich-sans"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "overpass",
+    "Fullname": "Overpass",
+    "Url": "https://font.my.id/libs/overpass/webfont/overpass.min.css",
+    "Type": [
+      "sans-serif"
+    ],
+    "Family": [
+      "\"overpass\", sans-serif"
+    ],
+    "Class": [
+      "overpass"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "overpass-mono",
+    "Fullname": "Overpass Mono",
+    "Url": "https://font.my.id/libs/overpass/mono-webfont/overpass-mono.min.css",
+    "Type": [
+      "sans-serif"
+    ],
+    "Family": [
+      "\"overpass-mono\", sans-serif"
+    ],
+    "Class": [
+      "overpass-mono"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "prociono",
+    "Fullname": "Prociono",
+    "Url": "https://font.my.id/libs/prociono/webfonts/stylesheet.css",
+    "Type": [
+      "serif"
+    ],
+    "Family": [
+      "\"Prociono\", serif"
+    ],
+    "Class": [
+      "prociono"
+    ],
+    "Public": true
+  },
+  {
+    "Name": "public-sans",
+    "Fullname": "PublicSans",
+    "Url": "https://font.my.id/libs/public-sans/public-sans.css",
+    "Type": [
+      "sans-serif"
+    ],
+    "Family": [
+      "\"PublicSans\", sans-serif"
+    ],
+    "Class": [
+      "public-sans"
+    ],
+    "Public": false
+  },
+  {
+    "Name": "redacted-font",
+    "Fullname": "Redacted Font",
+    "Url": "https://font.my.id/libs/redacted-font/web/stylesheet.css",
+    "Type": [
+      "sans-serif",
+      "serif"
+    ],
+    "Family": [
+      "\"redactedregular\", sans-serif",
+      "\"redacted_scriptregular\", serif"
+    ],
+    "Class": [
+      "redactedregular",
+      "redacted_scriptregular"
+    ],
+    "Public": true
+  }
+]
